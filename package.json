@@ -4,8 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
-    "build": "nodemon src/index2.js"
+    "start-3001": "nodemon src/index.js",
+    "start-3002": "nodemon src/index2.js",
+    "start": "start 3001 && start 3002"
   },
   "dependencies": {
     "express": "^4.15.2",
